@@ -3,7 +3,7 @@
 # Chapter 3, Hands-on Intelligent Agents with OpenAI Gym, 2018
 
 import gym
-env = gym.make('BipedalWalker-v2')
+env = gym.make('BipedalWalker-v3')
 env.reset()
 for _ in range(1000):
     env.render()
